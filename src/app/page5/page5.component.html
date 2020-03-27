@@ -1,0 +1,17 @@
+<div>
+    <p>
+        Bravo le coffre est à toi !
+        Choisi ton prénom et suis les instructions
+    </p>
+    <form>
+          <select [(ngModel)]="selectedName" name="name">
+            <option value="" selected></option>
+            <option *ngFor="let name of names" [value]="name.value">
+              {{name.viewValue}}
+            </option>
+          </select>
+        <p> {{selectedName}} </p>
+      </form>
+</div>
+
+

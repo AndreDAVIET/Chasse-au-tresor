@@ -1,0 +1,22 @@
+<div>
+    <p>
+        Bravo ! Vous avez trouvez le trésor mais celui ca a un code ! Comment faire ??
+        Heureusement un parchemin va avec le coffre
+    </p>
+</div>
+<div>
+    <img src="../assets/Capture3.png">
+</div>
+<div>
+    <img src="../assets/Capture4.PNG">
+</div>
+
+<div>
+    <form (ngSubmit)="VerificationCode()">
+        <input type="text" [(ngModel)]="code" name="code" required>
+        <button type="submit">Verifier</button>
+    </form>
+    <div *ngIf="Bravo">
+        <button routerLink="/503">Avancez</button>
+    </div>     
+</div>

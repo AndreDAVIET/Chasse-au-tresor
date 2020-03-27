@@ -1,0 +1,17 @@
+<div>
+    Votre Oncle vient de mourir et vous a léguer une vieille carte qu'il a trouver un jour dans un vieux livre et qui parle d'un trésor qu'aurait léguée une femme amoureuse a son grand amoureuse
+    N'ayant jamais reussi à trouver le trésor, dans ses dernières volontés, il souhaite que vous le trouviez
+  </div>
+  <div>
+    <img src="../assets/Capture.PNG">
+  </div>
+  
+  <div>
+    <form (ngSubmit)="VerificationName()">
+        <input type="text" [(ngModel)]="name" name="name" required>
+        <button type="submit">Verifier</button>
+    </form>
+    <div *ngIf="Bravo">
+        <button routerLink="/211">Allez a l'indice 2</button>
+    </div>     
+  </div>
