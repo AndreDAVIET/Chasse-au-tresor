@@ -1,0 +1,13 @@
+.page5{
+    background-image: url('../../assets/bravo.jpg');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-size: 2em;
+}
+.divTotal{
+    margin: auto;
+    width: 80%;
+}

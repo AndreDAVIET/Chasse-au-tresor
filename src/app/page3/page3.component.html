@@ -1,18 +1,20 @@
-<div>
-    <p>
-        En, fouillant vous tombez sur un nouveau parchemin
-    </p>
-</div>
-<div>
-    <img src="../assets/Capture2.PNG">
-</div>
+<div class='page3'>
+    <div class='divTotal'>
+        <p>
+            En, fouillant vous tombez sur un nouveau parchemin
+        </p>
+    </div>
+    <div class='divTotal'>
+        <img src="../assets/Capture2.PNG">
+    </div>
 
-<div>
-    <form (ngSubmit)="VerificationWord()">
-        <input type="text" [(ngModel)]="word" name="word" required>
-        <button type="submit">Verifier</button>
-    </form>
-    <div *ngIf="Bravo">
-        <button routerLink="/455">Avancez</button>
-    </div>     
-</div>
+    <div class='divTotal'>
+        <form (ngSubmit)="VerificationWord()">
+            <input type="text" [(ngModel)]="word" name="word" required>
+            <button type="submit">Verifier</button>
+        </form>
+        <div *ngIf="Bravo">
+            <button routerLink="/455">Avancez</button>
+        </div>     
+    </div>
+</div> 

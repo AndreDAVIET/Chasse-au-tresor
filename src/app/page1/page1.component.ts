@@ -17,7 +17,7 @@ export class Page1Component implements OnInit {
 
   VerificationName(){
     console.log(this.name)
-    if ( this.name === 'ELISE' ){
+    if ( this.name === 'ELISE' || this.name === 'elise' || this.name === 'Elise'   ){
       this.Bravo = true;
     }
   }

@@ -1,0 +1,14 @@
+.page1{
+    background-image: url('../../assets/sentier.jpg');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+    font-size: 2em;
+}
+
+.divTotal{
+    margin: auto;
+    width: 80%;
+}

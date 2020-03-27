@@ -16,7 +16,7 @@ export class Page3Component implements OnInit {
 
   VerificationWord(){
     console.log(this.word)
-    if ( this.word === "Errreur" ){
+    if ( this.word === "errreur" || this.word === "ERRREUR" || this.word === "Errreur"  ){
       this.Bravo = true;
     }
   }

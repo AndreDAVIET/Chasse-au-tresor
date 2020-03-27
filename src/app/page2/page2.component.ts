@@ -16,7 +16,7 @@ export class Page2Component implements OnInit {
 
   VerificationWord(){
     console.log(this.word)
-    if ( this.word === "je t'aime par dela la mort" ){
+    if ( this.word === "je t'aime par dela la mort" || this.word === "JE T'AIME PAR DELA LA MORT" || this.word === "je t'aime par delà la mort" || this.word === "Je t'aime par delà la mort"  ){
       this.Bravo = true;
     }
   }

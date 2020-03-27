@@ -1,18 +1,21 @@
-<div>
-    <p>
-        En, fouillant vous tombez sur un nouveau parchemin
-    </p>
-</div>
-<div>
-    <img src="../assets/Capture1.PNG">
-</div>
+<div class='page2'>  
+    <div class='divTotal' >
+        <p>
+            En, fouillant vous tombez sur un nouveau parchemin<br/>
+            ( la phrase est " ls g'sbmr ret rrdt ln osth ")<br/>
+        </p>
+    </div>
+    <div>
+        <img src="../assets/Capture1.PNG">
+    </div>
 
-<div>
-    <form (ngSubmit)="VerificationWord()">
-        <input type="text" [(ngModel)]="word" name="word" required>
-        <button type="submit">Verifier</button>
-    </form>
-    <div *ngIf="Bravo">
-        <button routerLink="/384">Allez a l'indice 3</button>
-    </div>     
-  </div>
+    <div class='divTotal'>
+        <form (ngSubmit)="VerificationWord()">
+            <input type="text" [(ngModel)]="word" name="word" required>
+            <button type="submit">Verifier</button>
+        </form>
+        <div *ngIf="Bravo">
+            <button routerLink="/384">Allez a l'indice 3</button>
+        </div>     
+    </div>
+</div>  

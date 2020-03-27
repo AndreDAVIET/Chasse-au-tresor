@@ -1,0 +1,15 @@
+.divTotal{
+    background-image: url('../../assets/homepagetresor.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.autre{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 16%;
+}
